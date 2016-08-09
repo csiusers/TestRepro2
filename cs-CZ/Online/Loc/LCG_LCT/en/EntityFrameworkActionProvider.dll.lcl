@@ -47,7 +47,7 @@
       </Item>
       <Item ItemId=";GenericActionParamTypeNotSupported" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Generic action parameter type {0}. not supported]]></Val>
+          <Val><![CDATA[Generic action parameter type {0} not supported]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
