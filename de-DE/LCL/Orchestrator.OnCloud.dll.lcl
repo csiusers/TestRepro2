@@ -183,9 +183,9 @@
       </Item>
       <Item ItemId=";FailedInGetMessage" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed in GetMessage {0}]]></Val>
+          <Val><![CDATA[Failed in GetMessage {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Fehler in GetMessage {0}]]></Val>
+            <Val><![CDATA[Fehler in GetMessage {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -196,9 +196,9 @@
       </Item>
       <Item ItemId=";FailedToInitializeQueue" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed to initialize queue with error {0}]]></Val>
+          <Val><![CDATA[Failed to initialize queue with error {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Fehler beim Initialisieren von Warteschlange; Fehler {0}]]></Val>
+            <Val><![CDATA[Fehler beim Initialisieren von Warteschlange; Fehler {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -210,9 +210,9 @@
       </Item>
       <Item ItemId=";FailedToInitializeQueue1" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed to initialize queue with error {0}]]></Val>
+          <Val><![CDATA[Failed to initialize queue with error {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Fehler beim Initialisieren von Warteschlange; Fehler {0}]]></Val>
+            <Val><![CDATA[Fehler beim Initialisieren von Warteschlange; Fehler {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -223,9 +223,9 @@
       </Item>
       <Item ItemId=";InSetPartitionInstanceIdCreatedQueue" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[In SetPartitionInstanceId. Created Queue for instance id {0}]]></Val>
+          <Val><![CDATA[In SetPartitionInstanceId. Created Queue for instance id {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[In SetPartitionInstanceId wurde eine Warteschlange für Instanz-ID {0} erstellt]]></Val>
+            <Val><![CDATA[In SetPartitionInstanceId wurde eine Warteschlange für Instanz-ID {0}. erstellt]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -236,9 +236,9 @@
       </Item>
       <Item ItemId=";InitializingQueueWithAzureAccount" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Initializing Queue with azure queue account {0}]]></Val>
+          <Val><![CDATA[Initializing Queue with azure queue account {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Warteschlange wird mit Azure-Warteschlangenkonto {0} initialisiert]]></Val>
+            <Val><![CDATA[Warteschlange wird mit Azure-Warteschlangenkonto {0}. initialisiert]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -262,9 +262,9 @@
       </Item>
       <Item ItemId=";MessageWithJobIdReceived" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Message with JobId {0} received in queueReader {1}]]></Val>
+          <Val><![CDATA[Message with JobId {0}. received in queueReader {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Meldung mit JobId {0} in queueReader {1} empfangen]]></Val>
+            <Val><![CDATA[Meldung mit JobId {0}. in queueReader {1} empfangen]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -275,9 +275,9 @@
       </Item>
       <Item ItemId=";ModuleVersionIdNotFoundInPath" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The last segment of the path must be module version id. Path: {0}]]></Val>
+          <Val><![CDATA[The last segment of the path must be module version id. Path: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Das letzte Segment des Pfads muss die Modulversions-ID sein. Pfad: {0}]]></Val>
+            <Val><![CDATA[Das letzte Segment des Pfads muss die Modulversions-ID sein. Pfad: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -288,9 +288,9 @@
       </Item>
       <Item ItemId=";ParameterCannotBeNullOrEmpty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} cannot be null or empty]]></Val>
+          <Val><![CDATA[{0}. cannot be null or empty]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[{0} darf nicht null oder leer sein]]></Val>
+            <Val><![CDATA[{0}. darf nicht null oder leer sein]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -301,9 +301,9 @@
       </Item>
       <Item ItemId=";QueueDeleteMessageMessageNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Queue DeleteMessage - message ID {0} with PopReceipt {1} not found. This can be caused by the message PopReceipt expiration.]]></Val>
+          <Val><![CDATA[Queue DeleteMessage - message ID {0}. with PopReceipt {1} not found. This can be caused by the message PopReceipt expiration.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Queue DeleteMessage - Meldungs-ID {0} mit PopReceipt {1} nicht gefunden. Dies kann durch den PopReceipt-Ablauf der Meldung verursacht werden.]]></Val>
+            <Val><![CDATA[Queue DeleteMessage - Meldungs-ID {0}. mit PopReceipt {1} nicht gefunden. Dies kann durch den PopReceipt-Ablauf der Meldung verursacht werden.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -340,9 +340,9 @@
       </Item>
       <Item ItemId=";QueueInstanceId" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[InstanceId {0}]]></Val>
+          <Val><![CDATA[InstanceId {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[InstanceId {0}]]></Val>
+            <Val><![CDATA[InstanceId {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

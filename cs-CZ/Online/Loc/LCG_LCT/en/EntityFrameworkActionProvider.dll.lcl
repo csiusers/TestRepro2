@@ -17,37 +17,37 @@
       </Item>
       <Item ItemId=";AvailabilityCheckExpectedToHaveSignature" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[AvailabilityCheck method was expected to have this signature 'bool {0}({1})']]></Val>
+          <Val><![CDATA[AvailabilityCheck method was expected to have this signature 'bool {0}.({1})']]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";AvailabilityCheckMethodMustReturnBoolean" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[AvailabilityCheck method ({0}) MUST return bool.]]></Val>
+          <Val><![CDATA[AvailabilityCheck method ({0}.) MUST return bool.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";AvailabilityMethodNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Availability Method {0} was not found on type {1}]]></Val>
+          <Val><![CDATA[Availability Method {0}. was not found on type {1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";EntityTypeCollNotToBeUsedAsNonBindingParam" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Entity Type Collections ({0}) MUST not be used as non-binding parameters.]]></Val>
+          <Val><![CDATA[Entity Type Collections ({0}.) MUST not be used as non-binding parameters.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";EntityTypeNotToBeUsedAsNonBindingParam" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Entity Types ({0}) MUST not be used as non-binding parameters.]]></Val>
+          <Val><![CDATA[Entity Types ({0}.) MUST not be used as non-binding parameters.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";GenericActionParamTypeNotSupported" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Generic action parameter type {0} not supported]]></Val>
+          <Val><![CDATA[Generic action parameter type {0}. not supported]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -59,7 +59,7 @@
       </Item>
       <Item ItemId=";InvalidBindingParam" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Type {0} is not a valid binding parameter]]></Val>
+          <Val><![CDATA[Type {0}. is not a valid binding parameter]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>

@@ -29,7 +29,7 @@
       </Item>
       <Item ItemId=";CannotGetSettingValue" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Cannot get setting value from configuration file. Setting Key = {0}]]></Val>
+          <Val><![CDATA[Cannot get setting value from configuration file. Setting Key = {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -41,7 +41,7 @@
       </Item>
       <Item ItemId=";ConsolidationWaitTimeCannotBeNagative" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Consolidation wait time must be greater than 0. consolidationWaitTime: {0}]]></Val>
+          <Val><![CDATA[Consolidation wait time must be greater than 0. consolidationWaitTime: {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -53,37 +53,37 @@
       </Item>
       <Item ItemId=";FailedToDeserializeResourceInput" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed to deserialize resource input from request content in ProvisionOrUpdateResource. Exception: {0}]]></Val>
+          <Val><![CDATA[Failed to deserialize resource input from request content in ProvisionOrUpdateResource. Exception: {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";ForewardRequestException" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed to forward request to Endpoint:{0} HttpMethod:{1}]]></Val>
+          <Val><![CDATA[Failed to forward request to Endpoint:{0}. HttpMethod:{1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";GeoRegionNotSupported" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[GeoRegion: {0} is not supported.]]></Val>
+          <Val><![CDATA[GeoRegion: {0}. is not supported.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";GuidValueCannotBeEmpty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} cannot be empty.]]></Val>
+          <Val><![CDATA[{0}. cannot be empty.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";InvalidResourceEntryStatus" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} is not a valid ResourceEntryStatus]]></Val>
+          <Val><![CDATA[{0}. is not a valid ResourceEntryStatus]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";InvalidRoutingEntryState" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} is a invalid routing entry state.]]></Val>
+          <Val><![CDATA[{0}. is a invalid routing entry state.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -107,7 +107,7 @@
       </Item>
       <Item ItemId=";StringValueCannotBeNullOrEmpty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} cannot be null or empty.]]></Val>
+          <Val><![CDATA[{0}. cannot be null or empty.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -119,13 +119,13 @@
       </Item>
       <Item ItemId=";ValueCannotBeEmpty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} cannot be empty.]]></Val>
+          <Val><![CDATA[{0}. cannot be empty.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";ValueCannotBeNullOrEmpty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} cannot be null or empty.]]></Val>
+          <Val><![CDATA[{0}. cannot be null or empty.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>

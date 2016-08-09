@@ -53,9 +53,9 @@
       </Item>
       <Item ItemId=";RequestIdHeaderNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Request id headers could not be found or invalid. The value must be a Guid. Expected headers {0} or {1}]]></Val>
+          <Val><![CDATA[Request id headers could not be found or invalid. The value must be a Guid. Expected headers {0}. or {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Anforderungs-ID-Header wurden nicht gefunden oder sind ungültig. Der Wert muss eine GUID sein. Erwartete Header sind {0} oder {1}]]></Val>
+            <Val><![CDATA[Anforderungs-ID-Header wurden nicht gefunden oder sind ungültig. Der Wert muss eine GUID sein. Erwartete Header sind {0}. oder {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -79,9 +79,9 @@
       </Item>
       <Item ItemId=";ThumbprintsNotFoundInConfiguration" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Thumbprints are not specified in the configuration. LookupKey: {0}]]></Val>
+          <Val><![CDATA[Thumbprints are not specified in the configuration. LookupKey: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Es sind keine Fingerabdrücke in der Konfiguration angegeben. LookupKey: {0}]]></Val>
+            <Val><![CDATA[Es sind keine Fingerabdrücke in der Konfiguration angegeben. LookupKey: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

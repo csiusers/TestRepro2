@@ -27,9 +27,9 @@
       <Modified By="l.seidel" DateTime="2014-09-23T13:16:30Z" />
       <Item ItemId=";CloudServiceNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[CloudService not found. Name {0}]]></Val>
+          <Val><![CDATA[CloudService not found. Name {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[CloudService nicht gefunden. Name {0}]]></Val>
+            <Val><![CDATA[CloudService nicht gefunden. Name {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -40,9 +40,9 @@
       </Item>
       <Item ItemId=";FailedToStartRunbook" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Runbook cannot be started. Runbook name {0}]]></Val>
+          <Val><![CDATA[Runbook cannot be started. Runbook name {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Runbook kann nicht gestartet werden. Runbookname {0}]]></Val>
+            <Val><![CDATA[Runbook kann nicht gestartet werden. Runbookname {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -53,9 +53,9 @@
       </Item>
       <Item ItemId=";SubscriptionNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Subcription not found. Id {0}]]></Val>
+          <Val><![CDATA[Subcription not found. Id {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Abonnement nicht gefunden. ID {0}]]></Val>
+            <Val><![CDATA[Abonnement nicht gefunden. ID {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

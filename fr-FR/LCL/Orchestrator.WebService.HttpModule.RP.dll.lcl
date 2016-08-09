@@ -62,9 +62,9 @@
       </Item>
       <Item ItemId=";RequestIdHeaderNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Request id headers could not be found or invalid. The value must be a Guid. Expected headers {0} or {1}]]></Val>
+          <Val><![CDATA[Request id headers could not be found or invalid. The value must be a Guid. Expected headers {0}. or {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Les en-têtes d'ID de demande sont introuvables ou ne sont pas valides. La valeur doit être un GUID. En-têtes attendus {0} ou {1}]]></Val>
+            <Val><![CDATA[Les en-têtes d'ID de demande sont introuvables ou ne sont pas valides. La valeur doit être un GUID. En-têtes attendus {0}. ou {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -88,9 +88,9 @@
       </Item>
       <Item ItemId=";ThumbprintsNotFoundInConfiguration" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Thumbprints are not specified in the configuration. LookupKey: {0}]]></Val>
+          <Val><![CDATA[Thumbprints are not specified in the configuration. LookupKey: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Les empreintes numériques ne sont pas indiquées dans la configuration. LookupKey : {0}]]></Val>
+            <Val><![CDATA[Les empreintes numériques ne sont pas indiquées dans la configuration. LookupKey : {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

@@ -45,9 +45,9 @@
       </Item>
       <Item ItemId=";AvailabilityCheckExpectedToHaveSignature" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[AvailabilityCheck method was expected to have this signature 'bool {0}({1})']]></Val>
+          <Val><![CDATA[AvailabilityCheck method was expected to have this signature 'bool {0}.({1})']]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[La méthode AvailabilityCheck doit avoir cette signature 'bool {0}({1})']]></Val>
+            <Val><![CDATA[La méthode AvailabilityCheck doit avoir cette signature 'bool {0}.({1})']]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -58,9 +58,9 @@
       </Item>
       <Item ItemId=";AvailabilityCheckMethodMustReturnBoolean" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[AvailabilityCheck method ({0}) MUST return bool.]]></Val>
+          <Val><![CDATA[AvailabilityCheck method ({0}.) MUST return bool.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[La méthode AvailabilityCheck ({0}) DOIT retourner une valeur bool.]]></Val>
+            <Val><![CDATA[La méthode AvailabilityCheck ({0}.) DOIT retourner une valeur bool.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -71,9 +71,9 @@
       </Item>
       <Item ItemId=";AvailabilityMethodNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Availability Method {0} was not found on type {1}]]></Val>
+          <Val><![CDATA[Availability Method {0}. was not found on type {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Méthode Availability {0} introuvable dans le type {1}]]></Val>
+            <Val><![CDATA[Méthode Availability {0}. introuvable dans le type {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -84,9 +84,9 @@
       </Item>
       <Item ItemId=";EntityTypeCollNotToBeUsedAsNonBindingParam" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Entity Type Collections ({0}) MUST not be used as non-binding parameters.]]></Val>
+          <Val><![CDATA[Entity Type Collections ({0}.) MUST not be used as non-binding parameters.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Les collections de types d'entité ({0}) ne DOIVENT pas être utilisées en tant que paramètres ne pouvant pas être liés.]]></Val>
+            <Val><![CDATA[Les collections de types d'entité ({0}.) ne DOIVENT pas être utilisées en tant que paramètres ne pouvant pas être liés.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -97,9 +97,9 @@
       </Item>
       <Item ItemId=";EntityTypeNotToBeUsedAsNonBindingParam" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Entity Types ({0}) MUST not be used as non-binding parameters.]]></Val>
+          <Val><![CDATA[Entity Types ({0}.) MUST not be used as non-binding parameters.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Les types d'entité ({0}) ne DOIVENT pas être utilisés en tant que paramètres ne pouvant pas être liés.]]></Val>
+            <Val><![CDATA[Les types d'entité ({0}.) ne DOIVENT pas être utilisés en tant que paramètres ne pouvant pas être liés.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -110,9 +110,9 @@
       </Item>
       <Item ItemId=";GenericActionParamTypeNotSupported" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Generic action parameter type {0} not supported]]></Val>
+          <Val><![CDATA[Generic action parameter type {0}. not supported]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Type de paramètre d'action générique {0} non pris en charge]]></Val>
+            <Val><![CDATA[Type de paramètre d'action générique {0}. non pris en charge]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -136,9 +136,9 @@
       </Item>
       <Item ItemId=";InvalidBindingParam" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Type {0} is not a valid binding parameter]]></Val>
+          <Val><![CDATA[Type {0}. is not a valid binding parameter]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Le type {0} n'est pas un paramètre de liaison]]></Val>
+            <Val><![CDATA[Le type {0}. n'est pas un paramètre de liaison]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

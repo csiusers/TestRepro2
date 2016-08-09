@@ -140,9 +140,9 @@
       </Item>
       <Item ItemId=";AccountNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Could not find the account. SubscriptionId: {0} AccountName: {1}]]></Val>
+          <Val><![CDATA[Could not find the account. SubscriptionId: {0}. AccountName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Impossible de trouver le compte. SubscriptionId : {0} AccountName : {1}]]></Val>
+            <Val><![CDATA[Impossible de trouver le compte. SubscriptionId : {0}. AccountName : {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -283,9 +283,9 @@
       </Item>
       <Item ItemId=";CannotCreateModuleConnectionTypeExists" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50031:Module {0} could not be created as connection type with the same name {1} and different connention type field properties/values already exist.]]></Val>
+          <Val><![CDATA[50031:Module {0}. could not be created as connection type with the same name {1} and different connention type field properties/values already exist.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50031 : Le module {0} n'a pas pu être créé car un type de connexion du même nom {1} et plusieurs valeurs/propriétés du champ de type de connexion existent déjà.]]></Val>
+            <Val><![CDATA[50031 : Le module {0}. n'a pas pu être créé car un type de connexion du même nom {1} et plusieurs valeurs/propriétés du champ de type de connexion existent déjà.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -296,9 +296,9 @@
       </Item>
       <Item ItemId=";CannotCreateModuleErrorParsingMetadataFile" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50032:Module {0} could not be created as there was an error parsing the module metadata file {1}]]></Val>
+          <Val><![CDATA[50032:Module {0}. could not be created as there was an error parsing the module metadata file {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50032 : Le module {0} n'a pas pu être créé en raison d'une erreur d'analyse de son fichier de métadonnées {1}]]></Val>
+            <Val><![CDATA[50032 : Le module {0}. n'a pas pu être créé en raison d'une erreur d'analyse de son fichier de métadonnées {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -309,9 +309,9 @@
       </Item>
       <Item ItemId=";CannotCreateModuleErrorReadingMetadataFile" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50033:Module {0} could not be created as there was an error reading the module metadata file]]></Val>
+          <Val><![CDATA[50033:Module {0}. could not be created as there was an error reading the module metadata file]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50033 : Le module {0} n'a pas pu être créé en raison d'une erreur de lecture de son fichier de métadonnées]]></Val>
+            <Val><![CDATA[50033 : Le module {0}. n'a pas pu être créé en raison d'une erreur de lecture de son fichier de métadonnées]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -322,9 +322,9 @@
       </Item>
       <Item ItemId=";CannotCreateModuleErrorUnexpectedFormatMetadataFile" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50034:Cannot create Module {0} as the module metadata format was unexpected.]]></Val>
+          <Val><![CDATA[50034:Cannot create Module {0}. as the module metadata format was unexpected.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50034 : Impossible de créer le module {0} car le format de ses métadonnées est inattendu.]]></Val>
+            <Val><![CDATA[50034 : Impossible de créer le module {0}. car le format de ses métadonnées est inattendu.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -335,9 +335,9 @@
       </Item>
       <Item ItemId=";CannotCreateModuleInvalidConnectionTypeType" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50037:Cannot create Module {0} as the type specified in the connection type metadata is invalid.]]></Val>
+          <Val><![CDATA[50037:Cannot create Module {0}. as the type specified in the connection type metadata is invalid.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50037 : Impossible de créer le module {0} car le type spécifié dans les métadonnées de type de connexion n'est pas valide.]]></Val>
+            <Val><![CDATA[50037 : Impossible de créer le module {0}. car le type spécifié dans les métadonnées de type de connexion n'est pas valide.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -374,9 +374,9 @@
       </Item>
       <Item ItemId=";CannotCreateScheduleStartTimeNotAfterMinExpected" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Could not create the schedule.  The start time must be at least {0} minutes after the time you create the schedule.  Schedule: ‘{1}’.]]></Val>
+          <Val><![CDATA[Could not create the schedule.  The start time must be at least {0}. minutes after the time you create the schedule.  Schedule: ‘{1}’.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Impossible de créer la planification. L'heure de début doit être postérieure d'au moins {0} par rapport à l'heure de création de la planification. Planification : ‘{1}’.]]></Val>
+            <Val><![CDATA[Impossible de créer la planification. L'heure de début doit être postérieure d'au moins {0}. par rapport à l'heure de création de la planification. Planification : ‘{1}’.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -455,9 +455,9 @@
       </Item>
       <Item ItemId=";CannotUploadMediaResourceDbg" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50042: Error occured while uploading media resource '{0}'.]]></Val>
+          <Val><![CDATA[50042: Error occured while uploading media resource '{0}.'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50042 : Une erreur s'est produite lors du chargement de la ressource média {0}.]]></Val>
+            <Val><![CDATA[50042 : Une erreur s'est produite lors du chargement de la ressource média {0}..]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -481,9 +481,9 @@
       </Item>
       <Item ItemId=";CouldNotFindAccount" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Could not find the account. SubscriptionId: {0} AccountName: {1}]]></Val>
+          <Val><![CDATA[Could not find the account. SubscriptionId: {0}. AccountName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Impossible de trouver le compte. SubscriptionId : {0} AccountName : {1}]]></Val>
+            <Val><![CDATA[Impossible de trouver le compte. SubscriptionId : {0}. AccountName : {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -494,9 +494,9 @@
       </Item>
       <Item ItemId=";CouldNotFindRunbookToExtractActivitiesForModule" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50002:Could not find Runbook to extract activities for Module {0} Version{1}. No activities will be extracted.]]></Val>
+          <Val><![CDATA[50002:Could not find Runbook to extract activities for Module {0}. Version{1}. No activities will be extracted.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50002 : Impossible de trouver le Runbook pour extraire les activités pour le module {0}, version {1}. Aucune activité ne sera extraite.]]></Val>
+            <Val><![CDATA[50002 : Impossible de trouver le Runbook pour extraire les activités pour le module {0}., version {1}. Aucune activité ne sera extraite.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -578,9 +578,9 @@
       </Item>
       <Item ItemId=";ExceptionInvokingAction" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Exception invoking [action={0}]5D;]]></Val>
+          <Val><![CDATA[Exception invoking [action={0}.]5D;]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Appel d'exception [action={0}]5D;]]></Val>
+            <Val><![CDATA[Appel d'exception [action={0}.]5D;]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -643,9 +643,9 @@
       </Item>
       <Item ItemId=";FuncIsNotInitialized" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} Func is not initialized.]]></Val>
+          <Val><![CDATA[{0}. Func is not initialized.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[La fonction {0} n'a pas été initialisée.]]></Val>
+            <Val><![CDATA[La fonction {0}. n'a pas été initialisée.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -656,9 +656,9 @@
       </Item>
       <Item ItemId=";GetRunbookJobSnapshotsInvalidSortDirection" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Invalid sort direction: {0}]]></Val>
+          <Val><![CDATA[Invalid sort direction: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Sens de tri non valide : {0}]]></Val>
+            <Val><![CDATA[Sens de tri non valide : {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -669,9 +669,9 @@
       </Item>
       <Item ItemId=";GetRunbookJobSnapshotsInvalidSortProperty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Invalid sort property: {0}]]></Val>
+          <Val><![CDATA[Invalid sort property: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Propriété de tri non valide : {0}]]></Val>
+            <Val><![CDATA[Propriété de tri non valide : {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -721,9 +721,9 @@
       </Item>
       <Item ItemId=";InvalidArgument_NullArgument" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50005:Invalid argument specified. Argument {0} cannot be null.]]></Val>
+          <Val><![CDATA[50005:Invalid argument specified. Argument {0}. cannot be null.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50005 : Argument non valide spécifié. L'argument {0} ne doit pas être Null.]]></Val>
+            <Val><![CDATA[50005 : Argument non valide spécifié. L'argument {0}. ne doit pas être Null.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -747,9 +747,9 @@
       </Item>
       <Item ItemId=";InvalidModuleContentsUri" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Module contents uri is invalid. Uri {0}]]></Val>
+          <Val><![CDATA[Module contents uri is invalid. Uri {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[L'URI de contenu du module n'est pas valide. URI {0}]]></Val>
+            <Val><![CDATA[L'URI de contenu du module n'est pas valide. URI {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -760,9 +760,9 @@
       </Item>
       <Item ItemId=";InvalidRunbookDefinition" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50006:Runbook definition is invalid. {0}]]></Val>
+          <Val><![CDATA[50006:Runbook definition is invalid. {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50006 : La définition du Runbook n'est pas valide. {0}]]></Val>
+            <Val><![CDATA[50006 : La définition du Runbook n'est pas valide. {0}.]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[50006:Runbook definition is invalid.]]></Val>
@@ -779,9 +779,9 @@
       </Item>
       <Item ItemId=";InvalidRunbookDefinitionMessage" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Runbook definition is invalid. {0}]]></Val>
+          <Val><![CDATA[Runbook definition is invalid. {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[La définition du Runbook n'est pas valide. {0}]]></Val>
+            <Val><![CDATA[La définition du Runbook n'est pas valide. {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -795,9 +795,9 @@
       </Item>
       <Item ItemId=";InvalidScheduleInterval" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Schedule interval is invalid. Interval {0}]]></Val>
+          <Val><![CDATA[Schedule interval is invalid. Interval {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[L'intervalle de planification n'est pas correct. Intervalle {0}]]></Val>
+            <Val><![CDATA[L'intervalle de planification n'est pas correct. Intervalle {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -821,9 +821,9 @@
       </Item>
       <Item ItemId=";JobIdAlreadyExists" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Job with specified id already exists. Job id: {0}]]></Val>
+          <Val><![CDATA[Job with specified id already exists. Job id: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[La tâche avec l'ID indiqué existe déjà. ID de tâche : {0}]]></Val>
+            <Val><![CDATA[La tâche avec l'ID indiqué existe déjà. ID de tâche : {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -873,9 +873,9 @@
       </Item>
       <Item ItemId=";JobStartThrottleByJobRuntimeLimitReached" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The operation could not be performed. Operation: {0}. The quota for the monthly total job run time has been reached for this subscription.]]></Val>
+          <Val><![CDATA[The operation could not be performed. Operation: {0}.. The quota for the monthly total job run time has been reached for this subscription.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Impossible d'exécuter l'opération. Opération : {0}. Le quota pour la durée d'exécution totale mensuelle des tâches a été dépassé pour cet abonnement.]]></Val>
+            <Val><![CDATA[Impossible d'exécuter l'opération. Opération : {0}.. Le quota pour la durée d'exécution totale mensuelle des tâches a été dépassé pour cet abonnement.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -886,9 +886,9 @@
       </Item>
       <Item ItemId=";JobStartThrottleLimitReached" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The operation could not be performed. Operation: {0}. The maxium number of job requests has been reached. Please try again later.]]></Val>
+          <Val><![CDATA[The operation could not be performed. Operation: {0}.. The maxium number of job requests has been reached. Please try again later.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Impossible d'exécuter l'opération. Opération : {0}. Le nombre maximum de demandes de tâches a été atteint. Réessayez plus tard.]]></Val>
+            <Val><![CDATA[Impossible d'exécuter l'opération. Opération : {0}.. Le nombre maximum de demandes de tâches a été atteint. Réessayez plus tard.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -938,9 +938,9 @@
       </Item>
       <Item ItemId=";MediaResourceCannotBeSaved" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[An error occurred. The media resource could not be saved.  Resource type '{0}']]></Val>
+          <Val><![CDATA[An error occurred. The media resource could not be saved.  Resource type '{0}.']]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Une erreur s'est produite. Impossible d'enregistrer la ressource média. Type de ressource « {0} »]]></Val>
+            <Val><![CDATA[Une erreur s'est produite. Impossible d'enregistrer la ressource média. Type de ressource « {0}. »]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -951,9 +951,9 @@
       </Item>
       <Item ItemId=";MediaResourceCannotBeSavedDbg" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50040: An error occurred. The media resource could not be saved.  Resource type '{0}']]></Val>
+          <Val><![CDATA[50040: An error occurred. The media resource could not be saved.  Resource type '{0}.']]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50040 : Une erreur s'est produite. Impossible d'enregistrer la ressource média. Type de ressource {0}]]></Val>
+            <Val><![CDATA[50040 : Une erreur s'est produite. Impossible d'enregistrer la ressource média. Type de ressource {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -964,9 +964,9 @@
       </Item>
       <Item ItemId=";ModuleContentsCannotBeRead" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Unable to read module contents. ModuleName {0}. Uri {1}]]></Val>
+          <Val><![CDATA[Unable to read module contents. ModuleName {0}.. Uri {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Impossible de lire le contenu du module. ModuleName {0}. Uri {1}]]></Val>
+            <Val><![CDATA[Impossible de lire le contenu du module. ModuleName {0}.. Uri {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -977,9 +977,9 @@
       </Item>
       <Item ItemId=";ModuleContentsNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Module data blob is empty. ModuleName{0}. Uri {1}]]></Val>
+          <Val><![CDATA[Module data blob is empty. ModuleName{0}.. Uri {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[L'objet blob du module est vide. ModuleName{0}. Uri {1}]]></Val>
+            <Val><![CDATA[L'objet blob du module est vide. ModuleName{0}.. Uri {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -990,9 +990,9 @@
       </Item>
       <Item ItemId=";ModuleDeletedProblemParsingContents" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50036:Module {0} was deleted as there was a problem parsing its contents.]]></Val>
+          <Val><![CDATA[50036:Module {0}. was deleted as there was a problem parsing its contents.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50036 : Le module {0} a été supprimé car un problème est survenu lors de l'analyse de son contenu.]]></Val>
+            <Val><![CDATA[50036 : Le module {0}. a été supprimé car un problème est survenu lors de l'analyse de son contenu.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1042,9 +1042,9 @@
       </Item>
       <Item ItemId=";ModuleSizeLargerThanMaxSupported" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Module data blob size is not supported. ModuleName {0}. MaxModuleSize {1}. ActualModuleSize {2}]]></Val>
+          <Val><![CDATA[Module data blob size is not supported. ModuleName {0}.. MaxModuleSize {1}. ActualModuleSize {2}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[La taille de l'objet blob de données du module n'est pas prise en charge. ModuleName {0}. MaxModuleSize {1}. ActualModuleSize {2}]]></Val>
+            <Val><![CDATA[La taille de l'objet blob de données du module n'est pas prise en charge. ModuleName {0}.. MaxModuleSize {1}. ActualModuleSize {2}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1120,9 +1120,9 @@
       </Item>
       <Item ItemId=";NumberOfConcurrentJobs" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[" {0} of concurrent jobs"]]></Val>
+          <Val><![CDATA[" {0}. of concurrent jobs"]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[" {0} tâches simultanées"]]></Val>
+            <Val><![CDATA[" {0}. tâches simultanées"]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1146,9 +1146,9 @@
       </Item>
       <Item ItemId=";PropertyCannotBeUpdated" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Property '{0}' cannot be updated.]]></Val>
+          <Val><![CDATA[Property '{0}.' cannot be updated.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Impossible de mettre à jour la propriété « {0} ».]]></Val>
+            <Val><![CDATA[Impossible de mettre à jour la propriété « {0}. ».]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1175,9 +1175,9 @@
       </Item>
       <Item ItemId=";PublishedRunbookVersionNotFoundDbg" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50042: Runbook '{0}' does not contain a published version.]]></Val>
+          <Val><![CDATA[50042: Runbook '{0}.' does not contain a published version.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50042 : Le Runbook {0} ne contient pas de version publiée.]]></Val>
+            <Val><![CDATA[50042 : Le Runbook {0}. ne contient pas de version publiée.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1191,9 +1191,9 @@
       </Item>
       <Item ItemId=";RequestCompleted" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Web Request {0} completed.]]></Val>
+          <Val><![CDATA[Web Request {0}. completed.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Requête Web {0} terminée.]]></Val>
+            <Val><![CDATA[Requête Web {0}. terminée.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1217,9 +1217,9 @@
       </Item>
       <Item ItemId=";ResumingJob" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50010:Resuming Job with JobId {0}]]></Val>
+          <Val><![CDATA[50010:Resuming Job with JobId {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50010 : Reprise de la tâche correspondant au JobId {0}]]></Val>
+            <Val><![CDATA[50010 : Reprise de la tâche correspondant au JobId {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1230,9 +1230,9 @@
       </Item>
       <Item ItemId=";RunbookCreated" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50038: Runbook '{0}' created successfully.]]></Val>
+          <Val><![CDATA[50038: Runbook '{0}.' created successfully.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50038 : Le Runbook {0} a bien été créé.]]></Val>
+            <Val><![CDATA[50038 : Le Runbook {0}. a bien été créé.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1262,9 +1262,9 @@
       </Item>
       <Item ItemId=";RunbookDefinitionStale" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Runbook definition is stale. Runbook '{0}'.]]></Val>
+          <Val><![CDATA[Runbook definition is stale. Runbook '{0}.'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[La définition du Runbook est caduque. Runbook « {0} ».]]></Val>
+            <Val><![CDATA[La définition du Runbook est caduque. Runbook « {0}. ».]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1275,9 +1275,9 @@
       </Item>
       <Item ItemId=";RunbookDefinitionStaleEvt" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50044:Runbook definition is stale. Runbook '{0}'.]]></Val>
+          <Val><![CDATA[50044:Runbook definition is stale. Runbook '{0}.'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50044 : la définition du Runbook est caduque. Runbook « {0} ».]]></Val>
+            <Val><![CDATA[50044 : la définition du Runbook est caduque. Runbook « {0}. ».]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1288,9 +1288,9 @@
       </Item>
       <Item ItemId=";RunbookDefinitionUpdated" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50039: Runbook '{0}' updated successfully.]]></Val>
+          <Val><![CDATA[50039: Runbook '{0}.' updated successfully.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50039 : Le Runbook {0} a bien été mis à jour.]]></Val>
+            <Val><![CDATA[50039 : Le Runbook {0}. a bien été mis à jour.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1304,9 +1304,9 @@
       </Item>
       <Item ItemId=";RunbookDoesNotContainDraftToPublish" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50011:Runbook {0} does not contain draft to publish.]]></Val>
+          <Val><![CDATA[50011:Runbook {0}. does not contain draft to publish.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50011 : Le Runbook {0} ne contient pas de brouillon à publier.]]></Val>
+            <Val><![CDATA[50011 : Le Runbook {0}. ne contient pas de brouillon à publier.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1320,9 +1320,9 @@
       </Item>
       <Item ItemId=";RunbookIsCheckedIn" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50012:Runbook {0} is checked in]]></Val>
+          <Val><![CDATA[50012:Runbook {0}. is checked in]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50012 : Le Runbook {0} a été enregistré]]></Val>
+            <Val><![CDATA[50012 : Le Runbook {0}. a été enregistré]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1336,9 +1336,9 @@
       </Item>
       <Item ItemId=";RunbookIsGoingToBeEdited" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50013:Runbook {0} is going to be edited]]></Val>
+          <Val><![CDATA[50013:Runbook {0}. is going to be edited]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50013 : Le Runbook {0} va être modifié]]></Val>
+            <Val><![CDATA[50013 : Le Runbook {0}. va être modifié]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1352,9 +1352,9 @@
       </Item>
       <Item ItemId=";RunbookIsInEditModeNow" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50014:Runbook {0} is in edit mode now.]]></Val>
+          <Val><![CDATA[50014:Runbook {0}. is in edit mode now.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50014 : Le Runbook {0} est maintenant en mode Édition.]]></Val>
+            <Val><![CDATA[50014 : Le Runbook {0}. est maintenant en mode Édition.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1368,12 +1368,12 @@
       </Item>
       <Item ItemId=";RunbookIsNotBeingEdited" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50015:Runbook {0} is not being editted.]]></Val>
+          <Val><![CDATA[50015:Runbook {0}. is not being editted.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New">
-            <Val><![CDATA[50015 : Le Runbook {0} n'est pas en cours de modification.]]></Val>
+            <Val><![CDATA[50015 : Le Runbook {0}. n'est pas en cours de modification.]]></Val>
           </Tgt>
           <Prev Cat="Text">
-            <Val><![CDATA[50015:Runbook {0} is not being editted. Only in-edit Runbooks can be tested.]]></Val>
+            <Val><![CDATA[50015:Runbook {0}. is not being editted. Only in-edit Runbooks can be tested.]]></Val>
           </Prev>
         </Str>
         <Disp Icon="Str" />
@@ -1387,12 +1387,12 @@
       </Item>
       <Item ItemId=";RunbookIsNotYetPublished" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50016:Runbook {0} is not yet published.]]></Val>
+          <Val><![CDATA[50016:Runbook {0}. is not yet published.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New">
-            <Val><![CDATA[50016 : Le Runbook {0} n'est pas encore publié.]]></Val>
+            <Val><![CDATA[50016 : Le Runbook {0}. n'est pas encore publié.]]></Val>
           </Tgt>
           <Prev Cat="Text">
-            <Val><![CDATA[50016:Runbook {0} is not yet published. Only published Runbooks can be started.]]></Val>
+            <Val><![CDATA[50016:Runbook {0}. is not yet published. Only published Runbooks can be started.]]></Val>
           </Prev>
         </Str>
         <Disp Icon="Str" />
@@ -1406,9 +1406,9 @@
       </Item>
       <Item ItemId=";RunbookIsReadyToBePublished" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50017:Runbook {0} is ready to be published.]]></Val>
+          <Val><![CDATA[50017:Runbook {0}. is ready to be published.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50017 : Le Runbook {0} est prêt à être publié.]]></Val>
+            <Val><![CDATA[50017 : Le Runbook {0}. est prêt à être publié.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1422,9 +1422,9 @@
       </Item>
       <Item ItemId=";RunbookNameAsSpecifiedInSlugHeader" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50018:Runbook name as specified in slug header: {0}]]></Val>
+          <Val><![CDATA[50018:Runbook name as specified in slug header: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50018 : Nom du Runbook tel qu'il est spécifié dans l'en-tête du champ de données dynamique : {0}]]></Val>
+            <Val><![CDATA[50018 : Nom du Runbook tel qu'il est spécifié dans l'en-tête du champ de données dynamique : {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1489,9 +1489,9 @@
       </Item>
       <Item ItemId=";RunbookVersionSaveFailedEvt" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50045: Error occured while saving runbook version. Runbook Name '{0}'.]]></Val>
+          <Val><![CDATA[50045: Error occured while saving runbook version. Runbook Name '{0}.'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50045 : une erreur s'est produite lors de l'enregistrement de la version du Runbook. Nom du Runbook « {0} ».]]></Val>
+            <Val><![CDATA[50045 : une erreur s'est produite lors de l'enregistrement de la version du Runbook. Nom du Runbook « {0}. ».]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1648,9 +1648,9 @@
       </Item>
       <Item ItemId=";StartingRunbookOnSchedule" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50019:Starting Runbook {0} on Schedule]]></Val>
+          <Val><![CDATA[50019:Starting Runbook {0}. on Schedule]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50019 : Démarrage du Runbook {0} selon la planification]]></Val>
+            <Val><![CDATA[50019 : Démarrage du Runbook {0}. selon la planification]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1664,9 +1664,9 @@
       </Item>
       <Item ItemId=";StartingRunbookToExtractActivitiesForModule" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50020:Starting Runbook to extract activities for Module {0} Version {1}]]></Val>
+          <Val><![CDATA[50020:Starting Runbook to extract activities for Module {0}. Version {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50020 : Démarrage du Runbook pour extraire les activités du module {0}, version {1}]]></Val>
+            <Val><![CDATA[50020 : Démarrage du Runbook pour extraire les activités du module {0}., version {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1680,9 +1680,9 @@
       </Item>
       <Item ItemId=";StoppingJob" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50021:Stopping Job {0}]]></Val>
+          <Val><![CDATA[50021:Stopping Job {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50021 : Arrêt de la tâche {0}]]></Val>
+            <Val><![CDATA[50021 : Arrêt de la tâche {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1709,9 +1709,9 @@
       </Item>
       <Item ItemId=";SubscriptionIdNotFoundInUrl" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[No subscription id found in the url. Url {0}]]></Val>
+          <Val><![CDATA[No subscription id found in the url. Url {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Aucun ID d'abonnement trouvé dans l'URL. Url {0}]]></Val>
+            <Val><![CDATA[Aucun ID d'abonnement trouvé dans l'URL. Url {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1722,9 +1722,9 @@
       </Item>
       <Item ItemId=";SuspendingJob" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50022:Suspending Job {0}]]></Val>
+          <Val><![CDATA[50022:Suspending Job {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50022 : Suspension en cours de la tâche {0}]]></Val>
+            <Val><![CDATA[50022 : Suspension en cours de la tâche {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1735,9 +1735,9 @@
       </Item>
       <Item ItemId=";TempFileForRunbookDefinition" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50041:Temp file name: '{0}']]></Val>
+          <Val><![CDATA[50041:Temp file name: '{0}.']]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50041 : Nom du fichier temporaire : {0}]]></Val>
+            <Val><![CDATA[50041 : Nom du fichier temporaire : {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1748,9 +1748,9 @@
       </Item>
       <Item ItemId=";TempFileInUseAndCannotBeDeleted" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50023:Temp file {0} is in use and cannot be deleted.]]></Val>
+          <Val><![CDATA[50023:Temp file {0}. is in use and cannot be deleted.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50023 : Le fichier temporaire {0} est utilisé et ne peut pas être supprimé.]]></Val>
+            <Val><![CDATA[50023 : Le fichier temporaire {0}. est utilisé et ne peut pas être supprimé.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1839,9 +1839,9 @@
       </Item>
       <Item ItemId=";WebServiceErrorSettingCommandTimeout" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Cannot set CommandTimeout. Default value will be used. Exception: {0}]]></Val>
+          <Val><![CDATA[Cannot set CommandTimeout. Default value will be used. Exception: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Impossible de définir CommandTimeout. La valeur par défaut sera utilisée. Exception : {0}]]></Val>
+            <Val><![CDATA[Impossible de définir CommandTimeout. La valeur par défaut sera utilisée. Exception : {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
