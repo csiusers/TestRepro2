@@ -41,7 +41,7 @@
       </Item>
       <Item ItemId=";CloudServicesControllerGetAllResourcesInCloudServiceEnterExit" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}]]></Val>
+          <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
             <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}]]></Val>
           </Tgt>
