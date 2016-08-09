@@ -27,9 +27,9 @@
       <Modified By="l.seidel" DateTime="2014-09-23T13:16:30Z" />
       <Item ItemId=";AccountNotAvailable" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Account is currently not available. SubscriptionId:{0}. AccountName: {1}]]></Val>
+          <Val><![CDATA[Account is currently not available. SubscriptionId:{0}.. AccountName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Konto ist derzeit nicht verfügbar. SubscriptionId:{0}. AccountName: {1}]]></Val>
+            <Val><![CDATA[Konto ist derzeit nicht verfügbar. SubscriptionId:{0}.. AccountName: {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -40,9 +40,9 @@
       </Item>
       <Item ItemId=";InvalidVersionSpecified" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Invalid version specified in the api-version query string option. api-version: {0}]]></Val>
+          <Val><![CDATA[Invalid version specified in the api-version query string option. api-version: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Ungültige Version in der api-version-Abfragezeichenfolgenoption. api-version angegeben: {0}]]></Val>
+            <Val><![CDATA[Ungültige Version in der api-version-Abfragezeichenfolgenoption. api-version angegeben: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

@@ -62,9 +62,9 @@
       </Item>
       <Item ItemId=";RequestIdHeaderNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Request id headers could not be found or invalid. The value must be a Guid. Expected headers {0} or {1}]]></Val>
+          <Val><![CDATA[Request id headers could not be found or invalid. The value must be a Guid. Expected headers {0}. or {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Hlavičky ID žádostí se nenašly nebo jsou neplatné. Hodnotou musí být GUID. Očekávaly se hlavičky {0} nebo {1}.]]></Val>
+            <Val><![CDATA[Hlavičky ID žádostí se nenašly nebo jsou neplatné. Hodnotou musí být GUID. Očekávaly se hlavičky {0}. nebo {1}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -88,9 +88,9 @@
       </Item>
       <Item ItemId=";ThumbprintsNotFoundInConfiguration" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Thumbprints are not specified in the configuration. LookupKey: {0}]]></Val>
+          <Val><![CDATA[Thumbprints are not specified in the configuration. LookupKey: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[V konfiguraci nejsou zadané kryptografické otisky. Vyhledávací klíč: {0}.]]></Val>
+            <Val><![CDATA[V konfiguraci nejsou zadané kryptografické otisky. Vyhledávací klíč: {0}..]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

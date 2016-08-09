@@ -27,9 +27,9 @@
       <Modified By="l.seidel" DateTime="2014-09-23T13:16:30Z" />
       <Item ItemId=";CloudServicesControllerDeleteCloudServiceEnterExit" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}]]></Val>
+          <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}]]></Val>
+            <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -41,9 +41,9 @@
       </Item>
       <Item ItemId=";CloudServicesControllerGetAllResourcesInCloudServiceEnterExit" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}]]></Val>
+          <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}]]></Val>
+            <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -67,9 +67,9 @@
       </Item>
       <Item ItemId=";EventsControllerHandleSubscriptionNotificationsEnterExit" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[SubscriptionId: {0}, State: {1}]]></Val>
+          <Val><![CDATA[SubscriptionId: {0}., State: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[SubscriptionId: {0}, State: {1}]]></Val>
+            <Val><![CDATA[SubscriptionId: {0}., State: {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -80,9 +80,9 @@
       </Item>
       <Item ItemId=";ResourceProviderResponse" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Resource Provider response: {0}]]></Val>
+          <Val><![CDATA[Resource Provider response: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Antwort des Ressourcenanbieters: {0}]]></Val>
+            <Val><![CDATA[Antwort des Ressourcenanbieters: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -93,9 +93,9 @@
       </Item>
       <Item ItemId=";ResourcesControllerDeleteResourceEnterExit" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
+          <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
+            <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -107,9 +107,9 @@
       </Item>
       <Item ItemId=";ResourcesControllerGetResourceEnterExit" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
+          <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
+            <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -120,9 +120,9 @@
       </Item>
       <Item ItemId=";ResourcesControllerProvisionOrUpdateResourceEnterExit" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
+          <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
+            <Val><![CDATA[SubscriptionId: {0}., CloudServiceName: {1}, ResourceType: {2}, ResourceName:{3}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

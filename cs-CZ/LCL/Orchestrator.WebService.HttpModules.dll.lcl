@@ -36,9 +36,9 @@
       <Modified By="klece_000" DateTime="2014-09-22T08:49:31Z" />
       <Item ItemId=";AccountNotAvailable" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Account is currently not available. SubscriptionId:{0}. AccountName: {1}]]></Val>
+          <Val><![CDATA[Account is currently not available. SubscriptionId:{0}.. AccountName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Účet momentálně není dostupný. ID předplatného: {0}, název účtu: {1}.]]></Val>
+            <Val><![CDATA[Účet momentálně není dostupný. ID předplatného: {0}., název účtu: {1}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -49,9 +49,9 @@
       </Item>
       <Item ItemId=";InvalidVersionSpecified" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Invalid version specified in the api-version query string option. api-version: {0}]]></Val>
+          <Val><![CDATA[Invalid version specified in the api-version query string option. api-version: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Jako parametr v řetězci dotazu api-version byla zadána neplatná verze. Verze rozhraní api: {0}.]]></Val>
+            <Val><![CDATA[Jako parametr v řetězci dotazu api-version byla zadána neplatná verze. Verze rozhraní api: {0}..]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

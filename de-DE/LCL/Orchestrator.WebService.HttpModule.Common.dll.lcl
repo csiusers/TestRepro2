@@ -41,9 +41,9 @@
       </Item>
       <Item ItemId=";AccountNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Could not find the account. SubscriptionId: {0} AccountName: {1}]]></Val>
+          <Val><![CDATA[Could not find the account. SubscriptionId: {0}. AccountName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Konto wurde nicht gefunden. SubscriptionId: {0} AccountName: {1}]]></Val>
+            <Val><![CDATA[Konto wurde nicht gefunden. SubscriptionId: {0}. AccountName: {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -94,9 +94,9 @@
       </Item>
       <Item ItemId=";InvalidUrl" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Invalid Url. Url: {0}]]></Val>
+          <Val><![CDATA[Invalid Url. Url: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Ungültige URL. URL: {0}]]></Val>
+            <Val><![CDATA[Ungültige URL. URL: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

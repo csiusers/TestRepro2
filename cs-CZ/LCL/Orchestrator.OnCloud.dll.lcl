@@ -193,9 +193,9 @@
       </Item>
       <Item ItemId=";FailedInGetMessage" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed in GetMessage {0}]]></Val>
+          <Val><![CDATA[Failed in GetMessage {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Chyba v metodě GetMessage {0}]]></Val>
+            <Val><![CDATA[Chyba v metodě GetMessage {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -206,9 +206,9 @@
       </Item>
       <Item ItemId=";FailedToInitializeQueue" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed to initialize queue with error {0}]]></Val>
+          <Val><![CDATA[Failed to initialize queue with error {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Inicializace fronty se nepovedla. Chyba: {0}]]></Val>
+            <Val><![CDATA[Inicializace fronty se nepovedla. Chyba: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -220,9 +220,9 @@
       </Item>
       <Item ItemId=";FailedToInitializeQueue1" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed to initialize queue with error {0}]]></Val>
+          <Val><![CDATA[Failed to initialize queue with error {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Inicializace fronty se nepovedla. Chyba: {0}]]></Val>
+            <Val><![CDATA[Inicializace fronty se nepovedla. Chyba: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -233,9 +233,9 @@
       </Item>
       <Item ItemId=";InSetPartitionInstanceIdCreatedQueue" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[In SetPartitionInstanceId. Created Queue for instance id {0}]]></Val>
+          <Val><![CDATA[In SetPartitionInstanceId. Created Queue for instance id {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[SetPartitionInstanceId: Vytvořila se fronta pro ID instance {0}.]]></Val>
+            <Val><![CDATA[SetPartitionInstanceId: Vytvořila se fronta pro ID instance {0}..]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -246,9 +246,9 @@
       </Item>
       <Item ItemId=";InitializingQueueWithAzureAccount" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Initializing Queue with azure queue account {0}]]></Val>
+          <Val><![CDATA[Initializing Queue with azure queue account {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Inicializuje se fronta s účtem fronty Azure {0}.]]></Val>
+            <Val><![CDATA[Inicializuje se fronta s účtem fronty Azure {0}..]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -272,9 +272,9 @@
       </Item>
       <Item ItemId=";MessageWithJobIdReceived" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Message with JobId {0} received in queueReader {1}]]></Val>
+          <Val><![CDATA[Message with JobId {0}. received in queueReader {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Objekt queueReader {1} přijal zprávu s konstruktorem JobId {0}.]]></Val>
+            <Val><![CDATA[Objekt queueReader {1} přijal zprávu s konstruktorem JobId {0}..]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -285,9 +285,9 @@
       </Item>
       <Item ItemId=";ModuleVersionIdNotFoundInPath" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The last segment of the path must be module version id. Path: {0}]]></Val>
+          <Val><![CDATA[The last segment of the path must be module version id. Path: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Poslední segment cesty musí být ID verze modulu. Cesta: {0}.]]></Val>
+            <Val><![CDATA[Poslední segment cesty musí být ID verze modulu. Cesta: {0}..]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -298,9 +298,9 @@
       </Item>
       <Item ItemId=";ParameterCannotBeNullOrEmpty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} cannot be null or empty]]></Val>
+          <Val><![CDATA[{0}. cannot be null or empty]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Parametr {0} nemůže mít hodnotu null ani být prázdný.]]></Val>
+            <Val><![CDATA[Parametr {0}. nemůže mít hodnotu null ani být prázdný.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -311,9 +311,9 @@
       </Item>
       <Item ItemId=";QueueDeleteMessageMessageNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Queue DeleteMessage - message ID {0} with PopReceipt {1} not found. This can be caused by the message PopReceipt expiration.]]></Val>
+          <Val><![CDATA[Queue DeleteMessage - message ID {0}. with PopReceipt {1} not found. This can be caused by the message PopReceipt expiration.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Metoda DeleteMessage fronty – ID zprávy {0} s vlastností PopReceipt {1} se nenašlo. Může to být kvůli tomu, že vypršela platnost vlastnosti PopReceipt zprávy.]]></Val>
+            <Val><![CDATA[Metoda DeleteMessage fronty – ID zprávy {0}. s vlastností PopReceipt {1} se nenašlo. Může to být kvůli tomu, že vypršela platnost vlastnosti PopReceipt zprávy.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -350,9 +350,9 @@
       </Item>
       <Item ItemId=";QueueInstanceId" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[InstanceId {0}]]></Val>
+          <Val><![CDATA[InstanceId {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[InstanceId {0}]]></Val>
+            <Val><![CDATA[InstanceId {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

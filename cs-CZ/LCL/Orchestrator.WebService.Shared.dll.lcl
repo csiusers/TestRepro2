@@ -140,9 +140,9 @@
       </Item>
       <Item ItemId=";AccountNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Could not find the account. SubscriptionId: {0} AccountName: {1}]]></Val>
+          <Val><![CDATA[Could not find the account. SubscriptionId: {0}. AccountName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Účet se nenašel. ID předplatného: {0}, název účtu: {1}.]]></Val>
+            <Val><![CDATA[Účet se nenašel. ID předplatného: {0}., název účtu: {1}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -283,9 +283,9 @@
       </Item>
       <Item ItemId=";CannotCreateModuleConnectionTypeExists" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50031:Module {0} could not be created as connection type with the same name {1} and different connention type field properties/values already exist.]]></Val>
+          <Val><![CDATA[50031:Module {0}. could not be created as connection type with the same name {1} and different connention type field properties/values already exist.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50031:Modul {0} se nepodařilo vytvořit, protože již existuje typ připojení se stejným názvem {1}, ale jinými vlastnostmi/hodnotami pole typu připojení.]]></Val>
+            <Val><![CDATA[50031:Modul {0}. se nepodařilo vytvořit, protože již existuje typ připojení se stejným názvem {1}, ale jinými vlastnostmi/hodnotami pole typu připojení.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -296,9 +296,9 @@
       </Item>
       <Item ItemId=";CannotCreateModuleErrorParsingMetadataFile" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50032:Module {0} could not be created as there was an error parsing the module metadata file {1}]]></Val>
+          <Val><![CDATA[50032:Module {0}. could not be created as there was an error parsing the module metadata file {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50032:Modul {0} se nepodařilo vytvořit, protože došlo k chybě při analýze souboru metadat modulu {1}.]]></Val>
+            <Val><![CDATA[50032:Modul {0}. se nepodařilo vytvořit, protože došlo k chybě při analýze souboru metadat modulu {1}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -309,9 +309,9 @@
       </Item>
       <Item ItemId=";CannotCreateModuleErrorReadingMetadataFile" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50033:Module {0} could not be created as there was an error reading the module metadata file]]></Val>
+          <Val><![CDATA[50033:Module {0}. could not be created as there was an error reading the module metadata file]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50033:Modul {0} se nepodařilo vytvořit, protože došlo k chybě při čtení souboru metadat modulu.]]></Val>
+            <Val><![CDATA[50033:Modul {0}. se nepodařilo vytvořit, protože došlo k chybě při čtení souboru metadat modulu.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -322,9 +322,9 @@
       </Item>
       <Item ItemId=";CannotCreateModuleErrorUnexpectedFormatMetadataFile" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50034:Cannot create Module {0} as the module metadata format was unexpected.]]></Val>
+          <Val><![CDATA[50034:Cannot create Module {0}. as the module metadata format was unexpected.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50034:Nelze vytvořit modul {0}, protože metadata modulu měla neočekávaný formát.]]></Val>
+            <Val><![CDATA[50034:Nelze vytvořit modul {0}., protože metadata modulu měla neočekávaný formát.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -335,9 +335,9 @@
       </Item>
       <Item ItemId=";CannotCreateModuleInvalidConnectionTypeType" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50037:Cannot create Module {0} as the type specified in the connection type metadata is invalid.]]></Val>
+          <Val><![CDATA[50037:Cannot create Module {0}. as the type specified in the connection type metadata is invalid.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50037:Nelze vytvořit modul {0}, protože typ zadaný v metadatech typu připojení je neplatný.]]></Val>
+            <Val><![CDATA[50037:Nelze vytvořit modul {0}., protože typ zadaný v metadatech typu připojení je neplatný.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -374,9 +374,9 @@
       </Item>
       <Item ItemId=";CannotCreateScheduleStartTimeNotAfterMinExpected" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Could not create the schedule.  The start time must be at least {0} minutes after the time you create the schedule.  Schedule: ‘{1}’.]]></Val>
+          <Val><![CDATA[Could not create the schedule.  The start time must be at least {0}. minutes after the time you create the schedule.  Schedule: ‘{1}’.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Plán nejde vytvořit. Čas spuštění musí být aspoň o {0} min pozdější než čas vytvoření plánu. Plán: {1}.]]></Val>
+            <Val><![CDATA[Plán nejde vytvořit. Čas spuštění musí být aspoň o {0}. min pozdější než čas vytvoření plánu. Plán: {1}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -455,9 +455,9 @@
       </Item>
       <Item ItemId=";CannotUploadMediaResourceDbg" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50042: Error occured while uploading media resource '{0}'.]]></Val>
+          <Val><![CDATA[50042: Error occured while uploading media resource '{0}.'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50042: Při nahrávání mediálního prostředku {0} došlo k chybě.]]></Val>
+            <Val><![CDATA[50042: Při nahrávání mediálního prostředku {0}. došlo k chybě.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -481,9 +481,9 @@
       </Item>
       <Item ItemId=";CouldNotFindAccount" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Could not find the account. SubscriptionId: {0} AccountName: {1}]]></Val>
+          <Val><![CDATA[Could not find the account. SubscriptionId: {0}. AccountName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Účet se nenašel. ID předplatného: {0}, název účtu: {1}.]]></Val>
+            <Val><![CDATA[Účet se nenašel. ID předplatného: {0}., název účtu: {1}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -494,9 +494,9 @@
       </Item>
       <Item ItemId=";CouldNotFindRunbookToExtractActivitiesForModule" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50002:Could not find Runbook to extract activities for Module {0} Version{1}. No activities will be extracted.]]></Val>
+          <Val><![CDATA[50002:Could not find Runbook to extract activities for Module {0}. Version{1}. No activities will be extracted.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50002:Nepodařilo se vyhledat sadu Runbook pro extrahování aktivit modulu {0}, verze{1}. Nebudou extrahovány žádné aktivity.]]></Val>
+            <Val><![CDATA[50002:Nepodařilo se vyhledat sadu Runbook pro extrahování aktivit modulu {0}., verze{1}. Nebudou extrahovány žádné aktivity.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -578,9 +578,9 @@
       </Item>
       <Item ItemId=";ExceptionInvokingAction" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Exception invoking [action={0}]5D;]]></Val>
+          <Val><![CDATA[Exception invoking [action={0}.]5D;]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Vyvolání výjimky [akce={0}]5D;]]></Val>
+            <Val><![CDATA[Vyvolání výjimky [akce={0}.]5D;]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -643,9 +643,9 @@
       </Item>
       <Item ItemId=";FuncIsNotInitialized" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} Func is not initialized.]]></Val>
+          <Val><![CDATA[{0}. Func is not initialized.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Funkce {0} není inicializována.]]></Val>
+            <Val><![CDATA[Funkce {0}. není inicializována.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -656,9 +656,9 @@
       </Item>
       <Item ItemId=";GetRunbookJobSnapshotsInvalidSortDirection" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Invalid sort direction: {0}]]></Val>
+          <Val><![CDATA[Invalid sort direction: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Neplatný směr řazení: {0}]]></Val>
+            <Val><![CDATA[Neplatný směr řazení: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -669,9 +669,9 @@
       </Item>
       <Item ItemId=";GetRunbookJobSnapshotsInvalidSortProperty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Invalid sort property: {0}]]></Val>
+          <Val><![CDATA[Invalid sort property: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Neplatná vlastnost řazení: {0}]]></Val>
+            <Val><![CDATA[Neplatná vlastnost řazení: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -721,9 +721,9 @@
       </Item>
       <Item ItemId=";InvalidArgument_NullArgument" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50005:Invalid argument specified. Argument {0} cannot be null.]]></Val>
+          <Val><![CDATA[50005:Invalid argument specified. Argument {0}. cannot be null.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50005:Byl zadán neplatný argument. Argument {0} nemůže mít hodnotu null.]]></Val>
+            <Val><![CDATA[50005:Byl zadán neplatný argument. Argument {0}. nemůže mít hodnotu null.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -747,9 +747,9 @@
       </Item>
       <Item ItemId=";InvalidModuleContentsUri" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Module contents uri is invalid. Uri {0}]]></Val>
+          <Val><![CDATA[Module contents uri is invalid. Uri {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Identifikátor URI obsahu modulu je neplatný. URI: {0}.]]></Val>
+            <Val><![CDATA[Identifikátor URI obsahu modulu je neplatný. URI: {0}..]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -760,9 +760,9 @@
       </Item>
       <Item ItemId=";InvalidRunbookDefinition" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50006:Runbook definition is invalid. {0}]]></Val>
+          <Val><![CDATA[50006:Runbook definition is invalid. {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50006:Definice sady Runbook je neplatná. {0}]]></Val>
+            <Val><![CDATA[50006:Definice sady Runbook je neplatná. {0}.]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[50006:Runbook definition is invalid.]]></Val>
@@ -779,9 +779,9 @@
       </Item>
       <Item ItemId=";InvalidRunbookDefinitionMessage" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Runbook definition is invalid. {0}]]></Val>
+          <Val><![CDATA[Runbook definition is invalid. {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Definice sady Runbook je neplatná. {0}]]></Val>
+            <Val><![CDATA[Definice sady Runbook je neplatná. {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -795,9 +795,9 @@
       </Item>
       <Item ItemId=";InvalidScheduleInterval" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Schedule interval is invalid. Interval {0}]]></Val>
+          <Val><![CDATA[Schedule interval is invalid. Interval {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Interval plánu je neplatný. Interval: {0}.]]></Val>
+            <Val><![CDATA[Interval plánu je neplatný. Interval: {0}..]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -821,9 +821,9 @@
       </Item>
       <Item ItemId=";JobIdAlreadyExists" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Job with specified id already exists. Job id: {0}]]></Val>
+          <Val><![CDATA[Job with specified id already exists. Job id: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Úloha se zadaným ID už existuje. ID úlohy: {0}.]]></Val>
+            <Val><![CDATA[Úloha se zadaným ID už existuje. ID úlohy: {0}..]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -873,9 +873,9 @@
       </Item>
       <Item ItemId=";JobStartThrottleByJobRuntimeLimitReached" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The operation could not be performed. Operation: {0}. The quota for the monthly total job run time has been reached for this subscription.]]></Val>
+          <Val><![CDATA[The operation could not be performed. Operation: {0}.. The quota for the monthly total job run time has been reached for this subscription.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Operaci nešlo udělat. Operace: {0}. Dosáhlo se kvóty pro celkový čas běhu úloh za měsíc pro toto předplatné.]]></Val>
+            <Val><![CDATA[Operaci nešlo udělat. Operace: {0}.. Dosáhlo se kvóty pro celkový čas běhu úloh za měsíc pro toto předplatné.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -886,9 +886,9 @@
       </Item>
       <Item ItemId=";JobStartThrottleLimitReached" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The operation could not be performed. Operation: {0}. The maxium number of job requests has been reached. Please try again later.]]></Val>
+          <Val><![CDATA[The operation could not be performed. Operation: {0}.. The maxium number of job requests has been reached. Please try again later.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Operaci nešlo udělat. Operace: {0}. Dosáhlo se maximálního počtu žádostí o úlohy. Zkuste to prosím znova později.]]></Val>
+            <Val><![CDATA[Operaci nešlo udělat. Operace: {0}.. Dosáhlo se maximálního počtu žádostí o úlohy. Zkuste to prosím znova později.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -938,9 +938,9 @@
       </Item>
       <Item ItemId=";MediaResourceCannotBeSaved" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[An error occurred. The media resource could not be saved.  Resource type '{0}']]></Val>
+          <Val><![CDATA[An error occurred. The media resource could not be saved.  Resource type '{0}.']]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Došlo k chybě. Mediální zdroj nebylo možné uložit. Typ prostředku „{0}“]]></Val>
+            <Val><![CDATA[Došlo k chybě. Mediální zdroj nebylo možné uložit. Typ prostředku „{0}.“]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -951,9 +951,9 @@
       </Item>
       <Item ItemId=";MediaResourceCannotBeSavedDbg" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50040: An error occurred. The media resource could not be saved.  Resource type '{0}']]></Val>
+          <Val><![CDATA[50040: An error occurred. The media resource could not be saved.  Resource type '{0}.']]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50040: Došlo k chybě. Mediální prostředek se nepodařilo uložit. Typ prostředku: {0}]]></Val>
+            <Val><![CDATA[50040: Došlo k chybě. Mediální prostředek se nepodařilo uložit. Typ prostředku: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -964,9 +964,9 @@
       </Item>
       <Item ItemId=";ModuleContentsCannotBeRead" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Unable to read module contents. ModuleName {0}. Uri {1}]]></Val>
+          <Val><![CDATA[Unable to read module contents. ModuleName {0}.. Uri {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Nejde přečíst obsah modulu. Název modulu: {0}, URI: {1}.]]></Val>
+            <Val><![CDATA[Nejde přečíst obsah modulu. Název modulu: {0}., URI: {1}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -977,9 +977,9 @@
       </Item>
       <Item ItemId=";ModuleContentsNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Module data blob is empty. ModuleName{0}. Uri {1}]]></Val>
+          <Val><![CDATA[Module data blob is empty. ModuleName{0}.. Uri {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Datový objekt blob modulu je prázdný. Název modulu: {0}, URI: {1}.]]></Val>
+            <Val><![CDATA[Datový objekt blob modulu je prázdný. Název modulu: {0}., URI: {1}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -990,9 +990,9 @@
       </Item>
       <Item ItemId=";ModuleDeletedProblemParsingContents" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50036:Module {0} was deleted as there was a problem parsing its contents.]]></Val>
+          <Val><![CDATA[50036:Module {0}. was deleted as there was a problem parsing its contents.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50036:Modul {0} byl odstraněn, protože byly problémy s analýzou jeho obsahu.]]></Val>
+            <Val><![CDATA[50036:Modul {0}. byl odstraněn, protože byly problémy s analýzou jeho obsahu.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1042,9 +1042,9 @@
       </Item>
       <Item ItemId=";ModuleSizeLargerThanMaxSupported" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Module data blob size is not supported. ModuleName {0}. MaxModuleSize {1}. ActualModuleSize {2}]]></Val>
+          <Val><![CDATA[Module data blob size is not supported. ModuleName {0}.. MaxModuleSize {1}. ActualModuleSize {2}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Velikost datového objektu blob modulu není podporovaná. Název modulu: {0}, maximální velikost modulu: {1}, skutečná velikost modulu: {2}.]]></Val>
+            <Val><![CDATA[Velikost datového objektu blob modulu není podporovaná. Název modulu: {0}., maximální velikost modulu: {1}, skutečná velikost modulu: {2}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1120,9 +1120,9 @@
       </Item>
       <Item ItemId=";NumberOfConcurrentJobs" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[" {0} of concurrent jobs"]]></Val>
+          <Val><![CDATA[" {0}. of concurrent jobs"]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Počet souběžných úloh: {0}]]></Val>
+            <Val><![CDATA[Počet souběžných úloh: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1146,9 +1146,9 @@
       </Item>
       <Item ItemId=";PropertyCannotBeUpdated" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Property '{0}' cannot be updated.]]></Val>
+          <Val><![CDATA[Property '{0}.' cannot be updated.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Vlastnost „{0}“ nelze aktualizovat.]]></Val>
+            <Val><![CDATA[Vlastnost „{0}.“ nelze aktualizovat.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1175,9 +1175,9 @@
       </Item>
       <Item ItemId=";PublishedRunbookVersionNotFoundDbg" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50042: Runbook '{0}' does not contain a published version.]]></Val>
+          <Val><![CDATA[50042: Runbook '{0}.' does not contain a published version.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50042: Sada Runbook {0} neobsahuje publikovanou verzi.]]></Val>
+            <Val><![CDATA[50042: Sada Runbook {0}. neobsahuje publikovanou verzi.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1191,9 +1191,9 @@
       </Item>
       <Item ItemId=";RequestCompleted" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Web Request {0} completed.]]></Val>
+          <Val><![CDATA[Web Request {0}. completed.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Webová žádost {0} byla dokončena.]]></Val>
+            <Val><![CDATA[Webová žádost {0}. byla dokončena.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1217,9 +1217,9 @@
       </Item>
       <Item ItemId=";ResumingJob" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50010:Resuming Job with JobId {0}]]></Val>
+          <Val><![CDATA[50010:Resuming Job with JobId {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50010:Obnovení úlohy s JobId {0}]]></Val>
+            <Val><![CDATA[50010:Obnovení úlohy s JobId {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1230,9 +1230,9 @@
       </Item>
       <Item ItemId=";RunbookCreated" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50038: Runbook '{0}' created successfully.]]></Val>
+          <Val><![CDATA[50038: Runbook '{0}.' created successfully.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50038: Sada Runbook {0} byla úspěšně vytvořena.]]></Val>
+            <Val><![CDATA[50038: Sada Runbook {0}. byla úspěšně vytvořena.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1262,9 +1262,9 @@
       </Item>
       <Item ItemId=";RunbookDefinitionStale" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Runbook definition is stale. Runbook '{0}'.]]></Val>
+          <Val><![CDATA[Runbook definition is stale. Runbook '{0}.'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Definice sady Runbook je zastaralá. Sada Runbook: {0}]]></Val>
+            <Val><![CDATA[Definice sady Runbook je zastaralá. Sada Runbook: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1275,9 +1275,9 @@
       </Item>
       <Item ItemId=";RunbookDefinitionStaleEvt" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50044:Runbook definition is stale. Runbook '{0}'.]]></Val>
+          <Val><![CDATA[50044:Runbook definition is stale. Runbook '{0}.'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50044:Definice sady Runbook je zastaralá. Sada Runbook: {0}]]></Val>
+            <Val><![CDATA[50044:Definice sady Runbook je zastaralá. Sada Runbook: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1288,9 +1288,9 @@
       </Item>
       <Item ItemId=";RunbookDefinitionUpdated" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50039: Runbook '{0}' updated successfully.]]></Val>
+          <Val><![CDATA[50039: Runbook '{0}.' updated successfully.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50039: Sada Runbook {0} byla úspěšně aktualizována.]]></Val>
+            <Val><![CDATA[50039: Sada Runbook {0}. byla úspěšně aktualizována.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1304,9 +1304,9 @@
       </Item>
       <Item ItemId=";RunbookDoesNotContainDraftToPublish" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50011:Runbook {0} does not contain draft to publish.]]></Val>
+          <Val><![CDATA[50011:Runbook {0}. does not contain draft to publish.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50011:Sada Runbook {0} neobsahuje koncept k publikování.]]></Val>
+            <Val><![CDATA[50011:Sada Runbook {0}. neobsahuje koncept k publikování.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1320,9 +1320,9 @@
       </Item>
       <Item ItemId=";RunbookIsCheckedIn" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50012:Runbook {0} is checked in]]></Val>
+          <Val><![CDATA[50012:Runbook {0}. is checked in]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50012:Sada Runbook {0} je zaregistrována]]></Val>
+            <Val><![CDATA[50012:Sada Runbook {0}. je zaregistrována]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1336,9 +1336,9 @@
       </Item>
       <Item ItemId=";RunbookIsGoingToBeEdited" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50013:Runbook {0} is going to be edited]]></Val>
+          <Val><![CDATA[50013:Runbook {0}. is going to be edited]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50013:Sada Runbook {0} bude upravena]]></Val>
+            <Val><![CDATA[50013:Sada Runbook {0}. bude upravena]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1352,9 +1352,9 @@
       </Item>
       <Item ItemId=";RunbookIsInEditModeNow" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50014:Runbook {0} is in edit mode now.]]></Val>
+          <Val><![CDATA[50014:Runbook {0}. is in edit mode now.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50014:Sada Runbook {0} je nyní v režimu úprav.]]></Val>
+            <Val><![CDATA[50014:Sada Runbook {0}. je nyní v režimu úprav.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1368,12 +1368,12 @@
       </Item>
       <Item ItemId=";RunbookIsNotBeingEdited" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50015:Runbook {0} is not being editted.]]></Val>
+          <Val><![CDATA[50015:Runbook {0}. is not being editted.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New">
-            <Val><![CDATA[50015:Sada Runbook {0} není aktuálně upravována.]]></Val>
+            <Val><![CDATA[50015:Sada Runbook {0}. není aktuálně upravována.]]></Val>
           </Tgt>
           <Prev Cat="Text">
-            <Val><![CDATA[50015:Runbook {0} is not being editted. Only in-edit Runbooks can be tested.]]></Val>
+            <Val><![CDATA[50015:Runbook {0}. is not being editted. Only in-edit Runbooks can be tested.]]></Val>
           </Prev>
         </Str>
         <Disp Icon="Str" />
@@ -1387,12 +1387,12 @@
       </Item>
       <Item ItemId=";RunbookIsNotYetPublished" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50016:Runbook {0} is not yet published.]]></Val>
+          <Val><![CDATA[50016:Runbook {0}. is not yet published.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New">
-            <Val><![CDATA[50016:Sada Runbook {0} ještě nebyla publikována.]]></Val>
+            <Val><![CDATA[50016:Sada Runbook {0}. ještě nebyla publikována.]]></Val>
           </Tgt>
           <Prev Cat="Text">
-            <Val><![CDATA[50016:Runbook {0} is not yet published. Only published Runbooks can be started.]]></Val>
+            <Val><![CDATA[50016:Runbook {0}. is not yet published. Only published Runbooks can be started.]]></Val>
           </Prev>
         </Str>
         <Disp Icon="Str" />
@@ -1406,9 +1406,9 @@
       </Item>
       <Item ItemId=";RunbookIsReadyToBePublished" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50017:Runbook {0} is ready to be published.]]></Val>
+          <Val><![CDATA[50017:Runbook {0}. is ready to be published.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50017:Sada Runbook {0} je připravena k publikování.]]></Val>
+            <Val><![CDATA[50017:Sada Runbook {0}. je připravena k publikování.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1422,9 +1422,9 @@
       </Item>
       <Item ItemId=";RunbookNameAsSpecifiedInSlugHeader" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50018:Runbook name as specified in slug header: {0}]]></Val>
+          <Val><![CDATA[50018:Runbook name as specified in slug header: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50018:Název sady Runbook dle zadání v záhlaví zkráceného názvu stránky: {0}]]></Val>
+            <Val><![CDATA[50018:Název sady Runbook dle zadání v záhlaví zkráceného názvu stránky: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1489,9 +1489,9 @@
       </Item>
       <Item ItemId=";RunbookVersionSaveFailedEvt" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50045: Error occured while saving runbook version. Runbook Name '{0}'.]]></Val>
+          <Val><![CDATA[50045: Error occured while saving runbook version. Runbook Name '{0}.'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50045: Při ukládání verze sady Runbook došlo k chybě. Název sady Runbook: {0}]]></Val>
+            <Val><![CDATA[50045: Při ukládání verze sady Runbook došlo k chybě. Název sady Runbook: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1648,9 +1648,9 @@
       </Item>
       <Item ItemId=";StartingRunbookOnSchedule" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50019:Starting Runbook {0} on Schedule]]></Val>
+          <Val><![CDATA[50019:Starting Runbook {0}. on Schedule]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50019:Spouštění sady Runbook {0} v plánu]]></Val>
+            <Val><![CDATA[50019:Spouštění sady Runbook {0}. v plánu]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1664,9 +1664,9 @@
       </Item>
       <Item ItemId=";StartingRunbookToExtractActivitiesForModule" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50020:Starting Runbook to extract activities for Module {0} Version {1}]]></Val>
+          <Val><![CDATA[50020:Starting Runbook to extract activities for Module {0}. Version {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50020:Spouštění sady Runbook pro extrahování aktivit modulu {0}, verze {1}]]></Val>
+            <Val><![CDATA[50020:Spouštění sady Runbook pro extrahování aktivit modulu {0}., verze {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1680,9 +1680,9 @@
       </Item>
       <Item ItemId=";StoppingJob" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50021:Stopping Job {0}]]></Val>
+          <Val><![CDATA[50021:Stopping Job {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50021:Zastavování úlohy {0}]]></Val>
+            <Val><![CDATA[50021:Zastavování úlohy {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1709,9 +1709,9 @@
       </Item>
       <Item ItemId=";SubscriptionIdNotFoundInUrl" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[No subscription id found in the url. Url {0}]]></Val>
+          <Val><![CDATA[No subscription id found in the url. Url {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[V adrese URL se nenašlo žádné ID předplatného. URL: {0}.]]></Val>
+            <Val><![CDATA[V adrese URL se nenašlo žádné ID předplatného. URL: {0}..]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1722,9 +1722,9 @@
       </Item>
       <Item ItemId=";SuspendingJob" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50022:Suspending Job {0}]]></Val>
+          <Val><![CDATA[50022:Suspending Job {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50022:Pozastavování úlohy {0}]]></Val>
+            <Val><![CDATA[50022:Pozastavování úlohy {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1735,9 +1735,9 @@
       </Item>
       <Item ItemId=";TempFileForRunbookDefinition" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50041:Temp file name: '{0}']]></Val>
+          <Val><![CDATA[50041:Temp file name: '{0}.']]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50041:Název dočasného souboru: {0}]]></Val>
+            <Val><![CDATA[50041:Název dočasného souboru: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1748,9 +1748,9 @@
       </Item>
       <Item ItemId=";TempFileInUseAndCannotBeDeleted" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50023:Temp file {0} is in use and cannot be deleted.]]></Val>
+          <Val><![CDATA[50023:Temp file {0}. is in use and cannot be deleted.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[50023:Dočasný soubor {0} je používán a nelze jej odstranit.]]></Val>
+            <Val><![CDATA[50023:Dočasný soubor {0}. je používán a nelze jej odstranit.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1839,9 +1839,9 @@
       </Item>
       <Item ItemId=";WebServiceErrorSettingCommandTimeout" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Cannot set CommandTimeout. Default value will be used. Exception: {0}]]></Val>
+          <Val><![CDATA[Cannot set CommandTimeout. Default value will be used. Exception: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Nelze nastavit možnost CommandTimeout. Bude použita výchozí hodnota. Výjimka: {0}]]></Val>
+            <Val><![CDATA[Nelze nastavit možnost CommandTimeout. Bude použita výchozí hodnota. Výjimka: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

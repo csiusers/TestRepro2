@@ -53,9 +53,9 @@
       </Item>
       <Item ItemId=";CannotGetSettingValue" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Cannot get setting value from configuration file. Setting Key = {0}]]></Val>
+          <Val><![CDATA[Cannot get setting value from configuration file. Setting Key = {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Einstellungswert kann nicht aus Konfigurationsdatei abgerufen werden. Einstellungsschlüssel = {0}]]></Val>
+            <Val><![CDATA[Einstellungswert kann nicht aus Konfigurationsdatei abgerufen werden. Einstellungsschlüssel = {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -79,9 +79,9 @@
       </Item>
       <Item ItemId=";ConsolidationWaitTimeCannotBeNagative" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Consolidation wait time must be greater than 0. consolidationWaitTime: {0}]]></Val>
+          <Val><![CDATA[Consolidation wait time must be greater than 0. consolidationWaitTime: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Konsolidierungswartezeit muss größer als 0 sein. consolidationWaitTime: {0}]]></Val>
+            <Val><![CDATA[Konsolidierungswartezeit muss größer als 0 sein. consolidationWaitTime: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -105,9 +105,9 @@
       </Item>
       <Item ItemId=";FailedToDeserializeResourceInput" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed to deserialize resource input from request content in ProvisionOrUpdateResource. Exception: {0}]]></Val>
+          <Val><![CDATA[Failed to deserialize resource input from request content in ProvisionOrUpdateResource. Exception: {0}.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Fehler beim Deserialisieren von Ressourceneingabe aus Anforderungsinhalt in ProvisionOrUpdateResource. Ausnahme: {0}]]></Val>
+            <Val><![CDATA[Fehler beim Deserialisieren von Ressourceneingabe aus Anforderungsinhalt in ProvisionOrUpdateResource. Ausnahme: {0}.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -118,9 +118,9 @@
       </Item>
       <Item ItemId=";ForewardRequestException" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed to forward request to Endpoint:{0} HttpMethod:{1}]]></Val>
+          <Val><![CDATA[Failed to forward request to Endpoint:{0}. HttpMethod:{1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Fehler beim Weiterleiten von Anforderung an Endpunkt:{0} HttpMethod:{1}]]></Val>
+            <Val><![CDATA[Fehler beim Weiterleiten von Anforderung an Endpunkt:{0}. HttpMethod:{1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -131,9 +131,9 @@
       </Item>
       <Item ItemId=";GeoRegionNotSupported" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[GeoRegion: {0} is not supported.]]></Val>
+          <Val><![CDATA[GeoRegion: {0}. is not supported.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[GeoRegion: {0} wird nicht unterstützt.]]></Val>
+            <Val><![CDATA[GeoRegion: {0}. wird nicht unterstützt.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -144,9 +144,9 @@
       </Item>
       <Item ItemId=";GuidValueCannotBeEmpty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} cannot be empty.]]></Val>
+          <Val><![CDATA[{0}. cannot be empty.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[{0} darf nicht leer sein.]]></Val>
+            <Val><![CDATA[{0}. darf nicht leer sein.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -158,9 +158,9 @@
       </Item>
       <Item ItemId=";InvalidResourceEntryStatus" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} is not a valid ResourceEntryStatus]]></Val>
+          <Val><![CDATA[{0}. is not a valid ResourceEntryStatus]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[{0} ist kein gültiger ResourceEntryStatus]]></Val>
+            <Val><![CDATA[{0}. ist kein gültiger ResourceEntryStatus]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -171,9 +171,9 @@
       </Item>
       <Item ItemId=";InvalidRoutingEntryState" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} is a invalid routing entry state.]]></Val>
+          <Val><![CDATA[{0}. is a invalid routing entry state.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[{0} ist ein ungültiger Routing-Eintrittsstatus.]]></Val>
+            <Val><![CDATA[{0}. ist ein ungültiger Routing-Eintrittsstatus.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -223,9 +223,9 @@
       </Item>
       <Item ItemId=";StringValueCannotBeNullOrEmpty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} cannot be null or empty.]]></Val>
+          <Val><![CDATA[{0}. cannot be null or empty.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[{0} darf nicht null oder leer sein.]]></Val>
+            <Val><![CDATA[{0}. darf nicht null oder leer sein.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -250,9 +250,9 @@
       </Item>
       <Item ItemId=";ValueCannotBeEmpty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} cannot be empty.]]></Val>
+          <Val><![CDATA[{0}. cannot be empty.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[{0} darf nicht leer sein.]]></Val>
+            <Val><![CDATA[{0}. darf nicht leer sein.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -263,9 +263,9 @@
       </Item>
       <Item ItemId=";ValueCannotBeNullOrEmpty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} cannot be null or empty.]]></Val>
+          <Val><![CDATA[{0}. cannot be null or empty.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[{0} darf nicht null oder leer sein.]]></Val>
+            <Val><![CDATA[{0}. darf nicht null oder leer sein.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

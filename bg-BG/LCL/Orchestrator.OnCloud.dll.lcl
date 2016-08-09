@@ -89,31 +89,31 @@
       </Item>
       <Item ItemId=";FailedInGetMessage" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed in GetMessage {0}]]></Val>
+          <Val><![CDATA[Failed in GetMessage {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";FailedToInitializeQueue" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed to initialize queue with error {0}]]></Val>
+          <Val><![CDATA[Failed to initialize queue with error {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";FailedToInitializeQueue1" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Failed to initialize queue with error {0}]]></Val>
+          <Val><![CDATA[Failed to initialize queue with error {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";InSetPartitionInstanceIdCreatedQueue" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[In SetPartitionInstanceId. Created Queue for instance id {0}]]></Val>
+          <Val><![CDATA[In SetPartitionInstanceId. Created Queue for instance id {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";InitializingQueueWithAzureAccount" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Initializing Queue with azure queue account {0}]]></Val>
+          <Val><![CDATA[Initializing Queue with azure queue account {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -125,25 +125,25 @@
       </Item>
       <Item ItemId=";MessageWithJobIdReceived" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Message with JobId {0} received in queueReader {1}]]></Val>
+          <Val><![CDATA[Message with JobId {0}. received in queueReader {1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";ModuleVersionIdNotFoundInPath" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The last segment of the path must be module version id. Path: {0}]]></Val>
+          <Val><![CDATA[The last segment of the path must be module version id. Path: {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";ParameterCannotBeNullOrEmpty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0} cannot be null or empty]]></Val>
+          <Val><![CDATA[{0}. cannot be null or empty]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";QueueDeleteMessageMessageNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Queue DeleteMessage - message ID {0} with PopReceipt {1} not found. This can be caused by the message PopReceipt expiration.]]></Val>
+          <Val><![CDATA[Queue DeleteMessage - message ID {0}. with PopReceipt {1} not found. This can be caused by the message PopReceipt expiration.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -161,7 +161,7 @@
       </Item>
       <Item ItemId=";QueueInstanceId" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[InstanceId {0}]]></Val>
+          <Val><![CDATA[InstanceId {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
