@@ -17,7 +17,7 @@
       <Disp Icon="Str" LocTbl="false" />
       <Item ItemId=";AccountNotFoundException" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Account is not found in AzureStore.]]></Val>
+          <Val><![CDATA[Account 01 is not found in AzureStore.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
