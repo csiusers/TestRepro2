@@ -38,7 +38,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Account is currently not available. SubscriptionId:{0}.. AccountName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
-            <Val><![CDATA[Compte actuellement indisponible. SubscriptionId : {0}.. AccountName : {1}]]></Val>
+            <Val><![CDATA[Comptete actuellement indisponible. SubscriptionId : {0}.. AccountName : {1}]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
