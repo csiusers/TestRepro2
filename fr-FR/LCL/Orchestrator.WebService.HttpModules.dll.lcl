@@ -36,7 +36,7 @@
       <Modified By="Locit" DateTime="2014-09-22T08:11:51Z" />
       <Item ItemId=";AccountNotAvailable" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Account is currently not available. SubscriptionId:{0}.. AccountName: {1}]]></Val>
+          <Val><![CDATA[Test Account is currently not available. SubscriptionId:{0}.. AccountName: {1}]]></Val>
           <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
             <Val><![CDATA[Comptete actuellement indisponible. SubscriptionId : {0}.. AccountName : {1}]]></Val>
           </Tgt>
